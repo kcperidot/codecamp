@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Gafata|Megrim" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="hi.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title> hi </title>
+  </head>
+  <body>
+
+<!-- header makes the menu screen on top, should be consistent for all 3 pages
+     line 6 and 13 in css. i made each list item inline instead of the list as a
+    whole. idk if thats right and ignore my em usage i still have no idea how to
+   use em and rem -->
+    <header>
+      <div class = "main-nav_list">
+        <ul class = "main-nav-bar">
+          <li class = "main-nav_list-items"> Home </li>
+          <li class = "main-nav_list-items"> News </li>
+          <li class = "main-nav_list-items"> FAQ </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- each section makes up a chunk of the main part-->
+    <main>
+      <!-- first one should be an image with logo of game? really big but its
+        empty for now -->
+      <section>
+        <img src = "">
+      </section>
+
+      <!-- this section is supposed to be the story description and bg image
+        is supposed to be an environment but idk how to make bg image so yea -->
+      <div class = "story-section">
+      <section>
+        <h2> Story </h2>
+        <p class = "story-description"> The story follows the exploits of Bell
+            Cranel, a 15-year-old solo adventurer under the goddess Hestia.
+            As the only member of the Hestia Familia, he works hard every day
+            in the dungeon to make ends meet while seeking to improve himself.
+            He looks up to Ais Wallenstein, a famous and powerful swordswoman
+            who once saved his life, and with whom he fell in love. He is
+            unaware that several other girls, deities and mortals alike, also
+            develop affections towards him; most notably Hestia herself, as he
+            also gains allies and improves himself with each new challenge he
+            faces. </p>
+        <!-- <img src = "storybackground.png"> -->
+      </section>
+    </div>
+
+    <!-- this section is supposed to introduce the main character, Dennis.
+        we can add an artwork of him on the side of the desc but rn its just a sad cg of
+        saihara -->
+      <section>
+        <h2> Meet: </h2>
+        <p> Studying hard to become a doctor, Kei Nagai is a high schooler who
+           knows very little about Ajin, only having seen them appear in the
+            news every now and then. Students are taught that these creatures
+            are not considered to be human, but Kei doesn't pay much attention
+            in class. As a result, his perilously little grasp on this subject
+             proves to be completely irrelevant when he survives an accident
+              that was supposed to claim his life, signaling his rebirth as
+              an Ajin and the start of his days of torment. </p>
+        <span class = "main-character-img">
+          <img src = "Shuuichi_Shuichi_Saihara_Illustration.png">
+        </span>
+      </section>
+
+      <!-- this section is to introduce the worlds in the game. rn theres only 1
+      test description (the p with class map-descriptions) and plz make short description
+      of each map and show and hide the p element accordingly to the changePic
+      javascript function -->
+      <section class = "map-section">
+        <h2> Explore a vast world </h2>
+        <div class = "map-list_big">
+          <ul class = "map-list">
+            <!-- img source is granblue -->
+            <li class = "map-list_items"> <img src = "thumb_02.jpg" onmouseover = "changePic('image_02.jpg')"> </li>
+            <li class = "map-list_items"> <img src = "thumb_03.jpg" onmouseover = "changePic('image_03.jpg')"> </li>
+            <li class = "map-list_items"> <img src = "thumb_07.jpg" onmouseover = "changePic('image_07.jpg')"> </li>
+            <li class = "map-list_items"> <img src = "thumb_05.jpg" onmouseover = "changePic('image_05.jpg')"> </li>
+            <li class = "map-list_items"> <img src = "thumb_06.jpg" onmouseover = "changePic('image_06.jpg')"> </li>
+            <li class = "map-list_items"> <img src = "thumb_09.jpg" onmouseover = "changePic('image_09.jpg')"> </li>
+          </ul>
+        </div>
+      <p>  </p>
+      <p class = "map-descriptions"> description of land here (only on this bottom left side) </p>
+      <span id = "floater"> <img id = "full-map-image" src = "image_02.jpg"> </span>
+      </section>
+    </main>
+
+    <!-- we link our social media, copyright kinda stuff here but is empty-->
+    <footer>
+
+    </footer>
+
+
+  </body>
+</html>
