@@ -1,0 +1,75 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <link rel = "stylesheet" type = "text/css" href = "faq.css"/>
+      <link href="https://fonts.googleapis.com/css?family=Gafata|Megrim" rel="stylesheet">
+      <title> Game Name - FAQ </title>
+    </head>
+    <body>
+      <header>
+        <div class = "main-nav_list">
+          <ul class = "main-nav-bar">
+            <li class = "main-nav_list-items"> Home </li>
+            <li class = "main-nav_list-items"> News </li>
+            <li class = "main-nav_list-items"> FAQ </li>
+          </ul>
+        </div>
+      </header>
+      <section>
+        <!-- big image that says FAQ in the middle-->
+        <img src = "">
+      </section>
+      <section class = "faq-section">
+        <div class = "faq-game">
+          <h2> Game </h2>
+          <ul class = "faq-questions_list">
+            <li>
+              <h4 id = "question"> How large is the world of Altea? </h4>
+              <p id = "popup"> Altea is about 7 kilometers wide, and 90 kilometers long. </p>
+            </li>
+
+              <!-- cant get it to work, i have to study econ : ( -->
+            <script>
+              document.getElementById("question").onclick = function() {
+                showTheText();
+              }
+
+              function showTheText() {
+                x = document.getElementById("popup").onclick;
+
+                if (x.style.display == "none") {
+                  x.style.display = "block";
+                } else {
+                  x.style.display = "none";
+              }
+            }
+            </script>
+            <li> <h4> Is there going to be a PvP system? </h4> </li>
+            <li> <h4> I don't like Dennis. Will I be able to play as a different character? </h4> </li>
+            <li> <h4> What type of combat system does GAME NAME offer? </h4> </li>
+            <li> <h4> What kind of items will I be able to purchase with NX cash? </h4> </li>
+          </ul>
+        </div>
+
+        <div class = "faq-system">
+          <h2> System </h2>
+          <ul class = "faq-questions_list">
+            <li> <h4> What are the system requirements for the game? </h4> </li>
+            <li> <h4> Errors while running the game </h4> </li>
+            <li> <h4> Errors during installation </h4> </li>
+            <li> <h4> How do I install the game? </h4> </li>
+          </ul>
+        </div>
+
+        <div class = "faq-conduct">
+          <h2> Code of Conduct </h2>
+          <ul class = "faq-questions_list">
+            <li> <h4 class = "faq-questions">  Violations </h4> </li>
+            <li> <h4 class = "faq-questions"> Penalties </h4> </li>
+          </ul>
+        </div>
+      </section>
+      <footer> </footer>
+            <script type="text/javascript" src="faq.js"></script>
+    </body>
+    </html>
