@@ -2,8 +2,7 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Megrim', cursive;
 }
 body{
-  margin-left: 200px;
-  margin-right: 200px;
+
 }
 .main-nav-bar {
   font-family: 'Gafata', sans-serif;
@@ -16,6 +15,11 @@ body{
   display: inline;
   margin-left: 1em;
   margin-right: 1em;
+}
+
+.story-section{
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .main-character-img {
@@ -32,7 +36,9 @@ body{
 .map-list_items {
   list-style-type: none;
   display: inline;
-
+  justify-content: center;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 #floater {
@@ -44,15 +50,18 @@ body{
 
 .map-descriptions {
   display: block;
-  position: absolute;
+  position: fixed;
   margin-right: 200px;
+  margin-left: 200px;
 
 }
 
 .map-section {
     background-color: pink;
+    justify-content: center;
 }
 
 .story-section {
   /* no idea how to make bg image  */
+  float: left;
 }

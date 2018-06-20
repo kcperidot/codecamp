@@ -193,7 +193,7 @@ how do you make things responsive based on user screens*/
 
 .gheroine-char {
   margin-bottom: 900px;
-  margin-left: 10%;
+  margin-left: 5%;
 
 
 }
@@ -247,20 +247,24 @@ ul {
 /* map stuff */
 
 .map-section {
+  justify-content: center;
 }
 
 
 .map-list, .map-list_items   {
   display: inline-block;
   margin-right: 17px;
+  justify-content: center;
 }
 
 .full-map-image {
   display: block;
+  justify-content: center;
 }
 
 .map-descriptions {
   position: relative;
+  justify-content: center;
 
 }
 
