@@ -1,0 +1,177 @@
+html {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Megrim", sans-serif;
+  font-size: 4em;
+  background-color: rgba(234,234,234, 0);
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.nav {
+  background-color: rgb(51, 54, 61, .75);
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.logo {
+  display: inline-block;
+  float:left;
+  padding-left: 25px;
+}
+
+.main-nav_list {
+  list-style-type: none;
+  text-align: right;
+}
+
+.main-nav_list-items {
+  display: inline-block;
+  font-family: "Megrim", sans-serif;
+  font-size: 1.68em;
+  color: white;
+  padding: .5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+A:visited {
+    color: #C0AA89;
+}
+
+/*  CSS for the title image */
+
+
+.title-list {
+  list-style-type: none;
+}
+
+.bg {
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: pink;
+  padding-bottom: 400px;
+  background-image: url('background.jpg');
+
+}
+
+.faq_title {
+  position: relative;
+  top: 200px;
+  text-align: center;
+  z-index: 0;
+    color: white;
+}
+
+.divider-icon {
+    position: relative;
+    left: 50%;
+    margin-top: 1.25em;
+    margin-bottom: -1.25em;
+}
+
+/* for the questions and answers */
+
+.faq-game, .faq-system, .faq-conduct {
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#a, #b, #c, #d, #e, #f, #ftwo, #g, #h, #i, #j, #k, #l {
+  display: none;
+  margin-top: 0px;
+  padding-left: 45px;
+}
+
+.all-faq{
+  font-family: 'Gafata', sans-serif;
+  font-size: 1em;
+
+}
+
+.faq-questions_list {
+  list-style-type: none;
+  user-select: none;
+}
+
+.faq-questions {
+  border-bottom: 1px solid #d6d6d6;
+  cursor: pointer;
+}
+
+h3 {
+  font-family: 'Gafata', sans-serif;
+  font-size: 1.3em;
+  padding: 20px;
+  padding-bottom: 15px;
+  color:#4586f7;
+
+}
+
+h3:hover {
+  color: blue;
+  background-color: #e5e5e5;
+}
+
+.section-title {
+    border-bottom: 3px solid #cccccc;
+}
+
+h2  {
+  font-family: 'Gafata', sans-serif;
+  font-size: 2em;
+  margin-left: -100px;
+  margin-right: -100px;
+  padding-bottom: 10px;
+  display: inline-block ;
+}
+
+.lil-icon {
+  background-image: url("222.png");
+  background-position: -37px -48px;
+  width: 186px;
+  height: 37px;
+  display: inline-block;
+}
+
+.all-faq p, table, dl, .penalty-list {
+  font-family: 'Gafata', sans-serif;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+td {
+  border-bottom: 1px solid gray;
+}
+
+.table-subheadings, dt {
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.table-heading {
+  font-size: 1.2em;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+dd {
+  margin-bottom: 1em;
+}
+
+.penalty-list {
+  margin-left: 25px;
+}
