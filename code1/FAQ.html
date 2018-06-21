@@ -1,0 +1,242 @@
+<!-- current logo and background image are filler-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel = "stylesheet" type = "text/css" href = "FAQ.css"/>
+    <script type="text/javascript" src="FAQ.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Gafata|Megrim" rel="stylesheet">
+    <title> Frequently Asked Questions | Game </title>
+  </head>
+  <body>
+    <!-- creates the navigation menu at the top-->
+    <div class = "nav">
+
+      <ul class = "main-nav_list">
+        <li class = "logo"> <img src = "img/logo.png"> </li>
+        <li class = "main-nav_list-items"><a href = "hi.html">Home</a></li>
+        <li class = "main-nav_list-items"> Characters </li>
+        <li class = "main-nav_list-items faq"> FAQ </li>
+      </ul>
+    </div>
+    <!-- makes the big image with the title of the page in the middle-->
+    <div class = "title">
+      <ul class = "title-list">
+        <li class = "bg"> <h1 class = "faq_title"> Frequently Asked Questions </h1> </li>
+      </ul>
+    </div>
+
+    <div class = "divider-icon">
+      <img src = "img/logo_ico.png">
+    </div>
+    <!-- all-faq refers to all 3 sections of the faq, it gets really long-->
+    <div class = "all-faq">
+            <div class = "faq-game">
+              <div class = "section-title">
+                <h2> Game </h2>
+                <div class = "lil-icon"> </div>
+              </div>
+        <ul class = "faq-questions_list">
+          <li class = "faq-questions">
+            <h3 onclick = "showAnswer('a')"> How large is the world of Altea? </h3>
+             <p  id = "a"> Altea is about 7 kilometers wide, and 90 kilometers long. </p>
+          </li>
+
+          <li class = "faq-questions">
+            <h3 onclick = "showAnswer('b')"> Is there going to be a PvP system? </h3>
+            <p id = "b"> Yes, PvP will be available for players level 10 or above. </p>
+          </li>
+          <li class = "faq-questions">
+            <h3 onclick = "showAnswer('c')" > I don't like Dennis. Will I be able to play as a different character? </h3>
+              <p id = "c"> There are four available characters you can choose from during character selection. Dennis is only one of the characters you can play. We worked hard on Dennis-from personality, concept, to abilities-but I guess you don't care and only like cute anime girls. The other characters are only there for money and provide no real substance to the story. </p>
+          </li>
+          <li class = "faq-questions">
+            <h3  onclick = "showAnswer('d')"> What type of combat system does GAME NAME offer? </h3>
+              <p id = "d"> Being inspired by all generic games throughout the game industry, our combat system is a traditional tab-target system. We know exACTLY what our players want. Dynamic combat systems require too much skill and time to develop. We offer a number of skills that players can use as they level up. </p>
+          </li>
+          <li class = "faq-questions">
+            <h3 onclick = "showAnswer('e')"> What kind of items will I be able to purchase with SK cash? </h3>
+              <p id = "e"> With SK cash, we offer a variety of items you can buy, such as costumes, item upgraders, and special enchanting items. Limited time event items will be added on special occasions. </p>
+          </li>
+        </ul>
+      </div>
+
+      <div class = "faq-system">
+        <div class = "section-title">
+          <h2> System </h2>
+          <div class = "lil-icon"> </div>
+        </div>
+        <ul class = "faq-questions_list">
+          <li class = "faq-questions">
+            <h3  onclick = "showAnswer('f')"> What are the system requirements for the game? </h3>
+                <!-- OVERWATCH's specs -->
+                <div id = "f">
+                  <p> Below are the system requirements for GAME NAME on Windows. The system requirements may change over time. </p>
+                <table>
+                  <tr> <th class = "table-heading"> Minimum Requirements </th> </tr>
+                  <tr class = "op-system">
+                    <td class = "table-subheadings"> Operating System </td>
+                    <td> Windows® 7 / Windows® 8 / Windows® 10 64-bit (latest Service Pack) </td>
+                  </tr>
+                  <tr class = "processor">
+                    <td class = "table-subheadings"> Processor </td>
+                    <td> Intel® Core™ i3 or AMD Phenom™ X3 8650 </td>
+                  </tr>
+                  <tr class = "video">
+                    <td class = "table-subheadings"> Video </td>
+                    <td> NVIDIA® GeForce® GTX 460, ATI Radeon™ HD 4850, or Intel® HD Graphics 4400 </td>
+                  </tr>
+                  <tr class = "memory">
+                    <td class = "table-subheadings"> Memory </td>
+                    <td> 4 GB RAM </td>
+                  </tr>
+                  <tr class = "storage">
+                    <td class = "table-subheadings"> Storage </td>
+                    <td> 30 GB available hard drive space </td>
+                  </tr>
+                  <tr class = "internet">
+                    <td class = "table-subheadings"> Internet </td>
+                    <td> Broadband internet connection </td>
+                  </tr>
+                  <tr class = "media">
+                    <td class = "table-subheadings"> Media </td>
+                    <td>None for the recommended digital installation </td>
+                  </tr>
+                  <tr class = "resolution">
+                    <td class = "table-subheadings"> Resolution </td>
+                    <td>1024 x 768 minimum display resolution</td>
+                  </tr>
+
+                  <tr> <th class = "table-heading"> Recommended Specifications </th> </tr>
+                  <tr class = "op-system">
+                    <td class = "table-subheadings"> Operating System </td>
+                    <td> Windows® 7 / Windows® 8 / Windows® 10 64-bit (latest Service Pack) </td>
+                  </tr>
+                  <tr class = "processor">
+                    <td class = "table-subheadings"> Processor </td>
+                    <td> Intel® Core™ i5 or AMD Phenom™ II X3 or better</td>
+                  </tr>
+                  <tr class = "video">
+                    <td class = "table-subheadings"> Video </td>
+                    <td> NVIDIA® GeForce® GTX 660 or AMD Radeon™ HD 7950 or better </td>
+                  </tr>
+                  <tr class = "memory">
+                    <td class = "table-subheadings"> Memory </td>
+                    <td> 6 GB RAM </td>
+                  </tr>
+                  <tr class = "storage">
+                    <td class = "table-subheadings"> Storage </td>
+                    <td> 30 GB available hard drive space </td>
+                  </tr>
+                  <tr class = "internet">
+                    <td class = "table-subheadings"> Internet </td>
+                    <td> Broadband internet connection </td>
+                  </tr>
+                  <tr class = "media">
+                    <td class = "table-subheadings"> Media </td>
+                    <td>None for the recommended digital installation </td>
+                  </tr>
+                  <tr class = "resolution">
+                    <td class = "table-subheadings"> Resolution </td>
+                    <td>1024 x 768 minimum display resolution</td>
+                  </tr>
+                </table>
+              </div>
+          </li>
+          <li class = "faq-questions">
+            <h3 onclick = "showAnswer('g')"> Errors while running the game </h3>
+            <div id = "g">
+              <p> Here are some common errors that players may experience in-game: </p>
+              <dl>
+                <dt> Why aren't my attacks or movements registering properly? </dt>
+                <dd> You may be experiencing problems with the server, causing packet loss and latency issues. Restarting your router may be a solution to the problem. If your problem is not resolved, contact us <a href = ""> here </a> </dd>
+                <dt> My game keeps crashing at loading screens! What do I do? </dt>
+                <dd> An easy solution is to lay on the floor and cry. We will never solve this problem because we as a company only care about your money, not your happiness. </dd>
+                <dt> Items aren't properly listing on the marketplace? </dt>
+                <dd> This, in fact, is not a bug. For years now, players have been constantly contacting us about their problems with the marketplace. However, the game is designed to cut your profits by half just to make you spite us. </dd>
+              </dl>
+            </div>
+          </li>
+          <li class = "faq-questions">
+            <h3 onclick = "showAnswer('h')"> Errors during installation </h3>
+            <div id = "h">
+              <p> Here are some common errors that players may experience with the installer: </p>
+              <dl>
+                <dt> Help! The installer won't open! </dt>
+                <dd> Just cry. Your computer may not meet the minimum requirements to download the game. If not, try restarting your computer or closing the 'nameinstaller.exe' process in your Task Manager. </dd>
+                <dt> Why does the installer keep crashing when I try to play the game? </dt>
+                <dd> An important file may have been deleted on your computer. In order to fix this issue, go to Settings and click 'Repair' in order to reinstall any lost data. </dd>
+                <dt> Why do my settings keep reverting every time I close the installer? </dt>
+                <dd> Most likely, you did not press 'save' after changing your settings. Please click 'save' to save your new settings or else it will revert back to what you had previously. Please get a brain. </dd>
+              </dl>
+            </div>
+          </li>
+          <li class = "faq-questions">
+            <h3 onclick = "showAnswer('i')"> Where can I install the game? </h3>
+            <p id = "i"> You may download GAME NAME <a href = "http://maplestory2.nexon.net/en"> here </a> </p>
+          </li>
+        </ul>
+      </div>
+
+      <div class = "faq-conduct">
+
+        <!-- LOL THE CLASS SECTION-TITLE ISNT SUPPOSED TO OVERLAP BUT IT LOOKS OK SO IM JUST GONNA LEAVE IT BC ITS 2:15 AM HAHAHAHAHAHAAHHAAH -->
+        <!-- one thing to note: all of the cool looking small icons are from bless online.net -->
+        <div class = "section-title">
+          <h2> Code of Conduct </h2>
+          <div class = "lil-icon"> </div>
+        </div>
+        <ul class = "faq-questions_list">
+          <li class = "faq-questions">
+            <h3 onclick = "showAnswer('j')">  Violations </h3>
+            <!-- Rise of Agon copy pasta -->
+            <div id = "j">
+              <p> The following shown below are the most common violations of our Code of Conduct and are all bannable offenses: </p>
+              <dl>
+                <dt> Exploiting </dt>
+                <dd> Depending on the severity of the bug or issue, exploitation may or may not result in a ban. </dd>
+                <dt> Offensive or Inappropriate Chat</dt>
+                <dd> We will not tolerate language that is abusive, offensive or highly inappropriate. This includes posting inappropriate websites or links to malicious software or hacks. Players who send messages that meet these standards will incur a penalty outside of any chat mute that occurs </dd>
+                <dt> Hacking or Using Third Party Software </dt>
+                <dd> Players who utilize any hack or 3rd party software that provides unfair advantages will be permanently banned on their first offense. </dd>
+              </dl>
+            </div>
+           </li>
+          <li class = "faq-questions">
+            <h3 onclick = "showAnswer('k')"> Penalties </h3>
+            <div id = "k">
+              <p> Permanent bans are lasting and final. They are verified prior to execution and apply to serious violations such as hacking, cheating, or using any modified version of game code. Players can also receive permanent bans for multiple violations of the Code of Conduct. The following outlines the penalties that players will incur for breaking the Code of Conduct: </p>
+              <ul class = "penalty-list">
+                <li> 1st Offense - Warning </li>
+                <li>  2nd Offense - 3 day ban </li>
+                <li> 3rd Offense - 7 day ban </li>
+                <li> 4th Offense - 14 day ban </li>
+                <li> 5th Offense - Permanent ban </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class = "divider"> </div>
+    <div class = "footer">
+
+      <p class = "copyright"> © 2018 Kayte Corporation and SK America Inc. All Rights Reserved </p>
+
+
+        <ul class = "footer-links">
+          <li class = "f-label"> Follow us: </li>
+          <li class = "f-link"> <a href = "https://www.facebook.com/ "> <img src = "img/fb.png"</a></li>
+          <li class = "f-link"> <a href = "https://www.twitter.com/ "> <img src = "img/twitter.png"</a></li>
+          <li class = "f-link"> <a href = "https://www.youtube.com/ "> <img src = "img/yt.png"</a></li>
+          <li class = "f-link"> <a href = "https://www.instagram.com/ "> <img src = "img/instagram.png"</a></li>
+        </ul>
+
+
+    </div>
+
+    </div>
+
+  </body>
+</html>
