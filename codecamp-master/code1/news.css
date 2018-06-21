@@ -1,0 +1,12 @@
+.main-nav-bar {
+  font-family: 'Gafata', sans-serif;
+  font-size: 1.68em;
+  list-style-type: none;
+  text-align: right;
+}
+
+.main-nav_list-items {
+  display: inline;
+  margin-left: 1em;
+  margin-right: 1em;
+}
