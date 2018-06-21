@@ -1,4 +1,9 @@
+html {
+  font-size: 16px;
+}
+
 .main-nav-bar {
+  position: absolute;
   font-family: 'Gafata', sans-serif;
   font-size: 1.68em;
   list-style-type: none;
@@ -9,4 +14,63 @@
   display: inline;
   margin-left: 1em;
   margin-right: 1em;
+}
+
+.nav {
+  background-color: rgb(51, 54, 61, .75);
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.title-list {
+  list-style-type: none;
+}
+
+.bg {
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: pink;
+  /* code below sucks */
+  min-height: 400px;
+  height: 1000px;
+  background-image: url('newsimg.jpeg');
+  width: 100%;
+  /* background-position: 0px 0px; */
+  background-repeat: no-repeat;
+
+}
+
+.home_title {
+  /* code below sucks */
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(0,0,0 , .5);
+  z-index: 0;
+  color: white;
+}
+
+.divider {
+  background-image: url("222.png") ;
+  background-position: -37px -48px;
+  width: 186px;
+  height: 37px;
+  margin: 50px;
+  /* bad code for divider positioning below */
+  margin: 80px auto 20px;
+  left: 50%;
+  align-items: center;
+}
+
+body {
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+p {
+  font-family: 'Gafata', sans-serif;
+  font-size: 18px;
 }

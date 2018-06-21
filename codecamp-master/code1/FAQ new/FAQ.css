@@ -144,11 +144,15 @@ h2  {
 }
 
 .lil-icon {
+  position: relative;
+  z-index: -1;
   background-image: url("222.png");
   background-position: -37px -48px;
   width: 186px;
   height: 37px;
   display: inline-block;
+  margin-bottom: 5px;
+  margin-left: 10px;
 }
 
 .all-faq p, table, dl, .penalty-list {
