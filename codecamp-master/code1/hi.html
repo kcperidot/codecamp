@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!-- send to gawhscode@gmail.com before 12 am -->
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Gafata|Megrim" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="hi.css">
+    <script type="text/javascript" src="script.js"></script>
+    <!-- animate.css allows for animations! -->
+    <link rel="stylesheet" href="animate.css">
+    <!-- wow.js allows for on scroll animations -->
+    <script src="wow.js"></script>
+    <script> new WOW().init(); </script>
+    <title> hi </title>
+  </head>
+  <body>
+
+<!-- header makes the menu screen on top, should be consistent for all 3 pages
+     line 6 and 13 in css. i made each list item inline instead of the list as a
+    whole. idk if thats right and ignore my em usage i still have no idea how to
+   use em and rem -->
+   <div class = "nav">
+
+     <ul class = "main-nav_list">
+       <!-- <li class = "logo"> <img src = "logo.png"> </li> -->
+       <li class = "main-nav_list-items home">Home</li>
+       <li class = "main-nav_list-items"> Characters </li>
+       <li class = "main-nav_list-items"> News </li>
+       <li class = "main-nav_list-items"> <a href = "FAQ new/FAQ.html"> FAQ </a> </li>
+     </ul>
+   </div>
+   <!-- makes the big image with the title of the page in the middle-->
+   <div class = "title">
+     <ul class = "title-list">
+       <li class = "bg"> <h1 class = "home_title"> Welcome to GAME! </h1> </li>
+     </ul>
+   </div>
+
+    <!-- each section makes up a chunk of the main part-->
+    <main>
+
+      <!-- this section is supposed to be the story description and bg image
+        is supposed to be an environment but idk how to make bg image so yea -->
+      <div class = "story-section">
+        <div class = "divider"> </div>
+        <h2 class = "wow fadeInDown"> Story </h2>
+        <div class = "story-bg"> </div>
+        <p class = "story-description"> A long, long time ago, the land of Altea
+        was ruled by a cruel Demon King and the land was consumed with darkness.
+        People lived in fear of the monster and day to day they suffered, wondering
+        how long they would live. It was then that a hero appeared, with a sacred sword
+        in hand. Along with his companions, the hero used the sword to seal the Demon King
+      away, and peace was returned to the land. <br> </br>
+        Now, a thousand years later, Altea is a prosperous and lively kingdom. It is
+      tradition for those at the age of sixteen to set off on a journey, just as the ancient
+    hero once had. Our protagonist, Dennis, is prepared to set off on a journey just like
+    all of the others before him. But when he is joined a amnesiac girl who wields an
+    unknown power, sinister forces begin to move behind the scenes of what once appeared to
+  be a glorious, upstanding kingdom... <br> </br>
+  A millennium-old power reawakens, and a new adventure springs forth from the secrets of the past.
+  Join Dennis as he experiences a journey extremely similar to that of a typical JRPG and discover
+a never-before-seen world!</p>
+        <div>
+          <img id = "img_animation" class = "wow fadeInRight" src = "mascot.png">
+        </div>
+
+    </div>
+
+    <!-- this section is supposed to introduce the main character, Dennis.
+        we can add an artwork of him on the side of the desc but rn its just a sad cg of
+        saihara -->
+      <div class = "characters-section">
+        <div class = "divider"> </div>
+        <h2 class = "wow fadeInDown"> Meet: </h2>
+        <div class = "gheroine-char">
+          <ul class = "gheroine-char-list">
+            <li class = "gheroine-char">
+              <p class = "right-character-desc"> Armed with nothing but the clothes
+              on her back and a mysterious, unknown power, Girl #1 is the heroine
+            of our story. With no memories to go on, she is an airheaded and bit careless,
+          but her kindness and sincerety manage to charm even the toughest of brutes.
+        Determined not to rely on a power she has no idea about, Girl #1 specializes in healing
+        and is the first member to join your party. </p>
+              <p class = "char-name"> GIRL #1 </p>
+              <img class = "left-character-img" src = "gheroine.png">
+            </li>
+          </ul>
+        <div class = "fade"> </div>
+         </div>
+
+        <!-- <p> Studying hard to become a doctor, Kei Nagai is a high schooler who
+           knows very little about Ajin, only having seen them appear in the
+            news every now and then. Students are taught that these creatures
+            are not considered to be human, but Kei doesn't pay much attention
+            in class. As a result, his perilously little grasp on this subject
+             proves to be completely irrelevant when he survives an accident
+              that was supposed to claim his life, signaling his rebirth as
+              an Ajin and the start of his days of torment. </p>
+        <span class = "main-character-img">
+          <img src = "gheroine.png" width="500px">
+          <img src = "gmage.png" width="500px"> -->
+          <!-- <img src = "Shuuichi_Shuichi_Saihara_Illustration.png"> -->
+        </span>
+      </div>
+
+      <div class = "pretty-section">
+        <div class = "divider"> </div>
+        <h2 class = "wow fadeInDown"> NaK4m4 4 L1f3 </h2>
+        <img class = "cute-pic" src = "pic3.png">
+        <img class = "cute-pic" src = "pic2.png">
+        <img class = "cute-pic" src = "pic5.png">
+      </div>
+
+      <!-- this section is to introduce the worlds in the game. rn theres only 1
+      test description (the p with class map-descriptions) and plz make short description
+      of each map and show and hide the p element accordingly to the changePic
+      javascript function -->
+      <div class = "map-section">
+        <div class = "divider"> </div>
+        <h2 class = "wow fadeInDown"> Explore a vast world </h2>
+        <div class = "killme">
+          <ul class = "map-list">
+            <li class = "map-list_items"> <img src = "thumb_02.jpg" onclick = "changePic('image_02.jpg')"> </li>
+            <li class = "map-list_items"> <img src = "thumb_03.jpg" onclick = "changePic('image_03.jpg')"> </li>
+            <li class = "map-list_items"> <img src = "thumb_07.jpg" onclick = "changePic('image_07.jpg')"> </li>
+            <li class = "map-list_items"> <img src = "thumb_05.jpg" onclick = "changePic('image_05.jpg')"> </li>
+            <li class = "map-list_items"> <img src = "thumb_06.jpg" onclick = "changePic('image_06.jpg')"> </li>
+            <li class = "map-list_items"> <img src = "thumb_09.jpg" onclick = "changePic('image_09.jpg')"> </li>
+          </ul>
+        <div> <img id = "full-map-image" src = "image_02.jpg"> </div>
+        </div>
+
+      <p class = "map-descriptions" id="mapdesc"> A millennium ago, the Demon King
+      ruled the land, and darkness spread about like a plauge. However, ever since he was
+      sealed away, plant life has regrown, and creatures of all kinds have reappeared.
+      Now, Altea is flourishing and beautiful, but recently signs of rot and decay have been reappearing...</p>
+
+    </div>
+
+    <div class = "divider"> </div>
+    </main>
+
+    <!-- we link our social media, copyright kinda stuff here but is empty-->
+    <div class = "borderb"> </div>
+    <div class = "futer">
+
+      <p class = "copyright"> © 2018 Kayte Corporation and SK America Inc. All Rights Reserved </p>
+
+        <ul class = "footer-links">
+          <li class = "f-label"> Follow us: </li>
+          <li class = "f-link"> <a href = "https://www.facebook.com/ "> <img src = "fb.png"</a></li>
+          <li class = "f-link"> <a href = "https://www.twitter.com/ "> <img src = "twitter.png"</a></li>
+          <li class = "f-link"> <a href = "https://www.youtube.com/ "> <img src = "yt.png"</a></li>
+          <li class = "f-link"> <a href = "https://www.instagram.com/ "> <img src = "instagram.png"</a></li>
+        </ul>
+    </div>
+
+
+  </body>
+</html>

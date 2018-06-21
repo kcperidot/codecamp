@@ -2,8 +2,12 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Megrim', cursive;
 }
 body{
+<<<<<<< HEAD
   margin-left: 200px;
   margin-right: 200px;
+=======
+
+>>>>>>> 070db6e3c1886c8ee7d358c0aafa282bf2b2ca17
 }
 .main-nav-bar {
   font-family: 'Gafata', sans-serif;
@@ -18,6 +22,14 @@ body{
   margin-right: 1em;
 }
 
+<<<<<<< HEAD
+=======
+.story-section{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+>>>>>>> 070db6e3c1886c8ee7d358c0aafa282bf2b2ca17
 .main-character-img {
 
 }
@@ -32,7 +44,13 @@ body{
 .map-list_items {
   list-style-type: none;
   display: inline;
+<<<<<<< HEAD
 
+=======
+  justify-content: center;
+  margin-left: 200px;
+  margin-right: 200px;
+>>>>>>> 070db6e3c1886c8ee7d358c0aafa282bf2b2ca17
 }
 
 #floater {
@@ -44,15 +62,29 @@ body{
 
 .map-descriptions {
   display: block;
+<<<<<<< HEAD
   position: absolute;
   margin-right: 200px;
+=======
+  position: fixed;
+  margin-right: 200px;
+  margin-left: 200px;
+>>>>>>> 070db6e3c1886c8ee7d358c0aafa282bf2b2ca17
 
 }
 
 .map-section {
     background-color: pink;
+<<<<<<< HEAD
+=======
+    justify-content: center;
+>>>>>>> 070db6e3c1886c8ee7d358c0aafa282bf2b2ca17
 }
 
 .story-section {
   /* no idea how to make bg image  */
+<<<<<<< HEAD
+=======
+  float: left;
+>>>>>>> 070db6e3c1886c8ee7d358c0aafa282bf2b2ca17
 }
