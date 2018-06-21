@@ -1,6 +1,8 @@
 html {
   font-size: 16px;
-  overflow-x: hidden;
+  overflow-x: hidden;shrink-to-fit=no
+
+
 }
 
 * {
@@ -83,7 +85,6 @@ a {
     background-attachment: fixed;
     background-size: cover;
     background-color: #ececec;
-    /* code below sucks */
     min-height: 400px;
     height: 1000px;
     background-image: url('img/backgroundtitle.jpg');
@@ -91,7 +92,6 @@ a {
     background-repeat: no-repeat;
   }
   .home_title {
-    /* code below sucks */
     position: relative;
     top: 50%;
     left: 50%;
@@ -106,7 +106,6 @@ a {
 
 
 .story-section {
-  /* wish i could figure out why this section has a huge margin at the bottom */
   margin-bottom: -750px;
 }
   .story-bg {
@@ -149,14 +148,19 @@ a {
     font-size: 100px;
     font-family: 'Megrim', sans-serif;
     background-color: rgba(	192, 170, 137, .5);
+    min-width: 790px;
   }
   .character-desc {
     position: absolute;
-    margin: 200px 450px 0px;
+    margin: 200px 475px 0px;
     background-color: rgba(	192, 170, 137, .5);
     font-size: 25px;
-    padding: 10px;
+    padding: 20px;
+    min-width: 300px;
     float: right;
+  }
+  .mage {
+    margin-top: 200px;
   }
 
 
