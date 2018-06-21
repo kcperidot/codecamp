@@ -1,0 +1,252 @@
+html {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Megrim", sans-serif;
+  font-size: 7em;
+  background-color: rgba(234,234,234, 0);
+}
+
+body {
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+p {
+  font-family: 'Gafata', sans-serif;
+}
+
+h2 {
+  font-family: "Megrim", sans-serif;
+  text-align: center;
+    font-size: 3em;
+  margin-bottom: 25px;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* is used at the start of each section in the page */
+.divider {
+  background-image: url("img/222.png") ;
+  background-position: -37px -48px;
+  width: 186px;
+  height: 37px;
+  margin: 50px;
+  margin: 80px auto 20px;
+  left: 50%;
+  align-items: center;
+}
+
+
+
+.nav {
+  background-color: rgb(51, 54, 61, .75);
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+  .nav ul {
+    text-align: right;
+  }
+  .nav-item{
+    display: inline-block;
+    font-family: "Megrim", sans-serif;
+    font-size: 1.68em;
+    color: white;
+    padding: .5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .home {
+    color: #C0AA89;
+}
+
+
+
+/* .title */
+  .bg {
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #ececec;
+    /* code below sucks */
+    min-height: 400px;
+    height: 1000px;
+    background-image: url('img/backgroundtitle.jpg');
+    /* background-position: 0px 0px; */
+    background-repeat: no-repeat;
+  }
+  .home_title {
+    /* code below sucks */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* background-color: rgba(255,255,255 , .25); */
+    z-index: 0;
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  }
+
+
+
+.story-section {
+  /* wish i could figure out why this section has a huge margin at the bottom */
+  margin-bottom: -750px;
+}
+  .story-bg {
+    background-image: url("img/storybackground.png");
+    height: 40vw;
+    min-height: 750px;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  .story-section p {
+    position: relative;
+    bottom: 625px;
+    padding: 25px;
+    text-align: center;
+    /* bad  code*/
+    margin-left: 50px;
+    margin-right: 750px;
+    min-width: 800px;
+    color: white;
+    font-size: 1.5em;
+    background-color: rgba(0,0,0, .5);
+  }
+  #animated_img {
+    left: 70%;
+    position: relative;
+    bottom: 700px;
+  }
+
+
+
+/* characters! */
+  .girl-portrait {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .character-img {
+    height: 800px;
+  }
+  .char-name {
+    font-size: 100px;
+    font-family: 'Megrim', sans-serif;
+    background-color: rgba(	192, 170, 137, .5);
+  }
+  .character-desc {
+    position: absolute;
+    margin: 200px 450px 0px;
+    background-color: rgba(	192, 170, 137, .5);
+    font-size: 25px;
+    padding: 10px;
+    float: right;
+  }
+
+
+
+
+.friends-section {
+  background-image: url('img/cutebg.png');
+  background-position: center -275px;
+  background-repeat: no-repeat;
+}
+  .friends-section img {
+    width: 700px;
+    height: auto;
+  }
+  .friends-section_content {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+  .friends-row-one {
+    display: inline;
+  }
+      .friends-row-one p {
+        float: right;
+        font-size: 40px;
+      }
+  .friends-row-two p {
+    float: left;
+    font-size: 40px;
+  }
+  .right-side {
+    float: right;
+  }
+
+
+
+/* map stuff */
+  .killme {
+    padding: 20px 100px;
+    background-color: rgba(255,255,255, .75);
+  }
+    .killme img {
+      min-width: 75px;
+      width: 7.1vw;
+    }
+  .map-list, .map-list li  {
+    display: inline-block;
+    margin-right: .8vw;
+  }
+  .map-background {
+    background-image: url("img/mapbackground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding: 50px 0px;
+    background-attachment: fixed;
+  }
+  #full-map-image {
+    width: 48vw;
+    min-width: 506px;
+  }
+  .map-descriptions {
+    position: relative;
+    display: inline-block;
+    float: right;
+    left: 50vw;
+    margin-right: 50vw;
+    bottom: 425px;
+    font-size: 1.4em;
+  }
+
+
+
+/* footer stuff */
+  .copyright {
+    position: relative;
+    top: 80px;
+    left: 25px;
+    font-size: 1vw;
+  }
+  .footer ul {
+    display: inline;
+    float: right;
+    font-family: 'Gafata', sans-serif;
+    margin: 15px;
+  }
+  .f-link, .f-label {
+    display: inline;
+  }
+  .f-label {
+    position: relative;
+    bottom: 25px;
+    font-size: 1vw;
+  }
